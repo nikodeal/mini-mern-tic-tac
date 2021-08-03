@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.home-div{
+    width: 80%;
+    height: 40rem
+}
+.home-div h4{
+    color: #142850;;
+    text-align: center;
+    font-weight: 300;
+    font-size: smaller;
+    
+}
+.center-div{
+  width: 20rem;
+ 
+  margin: 3rem auto;
+}
+.top ,.middle, .bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 100%;
+    height: 5rem;
+    /* border: 2px solid; */
+}
+.top div,.middle div,.bottom div{
+    width: 6.6rem;
+   color: #142850;
+   
+   font-weight: 600;
+   text-transform: capitalize;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    transition-property: animation;
+    animation-name: fade;
+   opacity: 1;
+}
+
+.lt, .mt, .lm, .mm{
+    border-bottom: 5px solid #dae1e7;
+    border-right: 5px solid #dae1e7;
+   
+   
+}
+.lb, .mb{
+    border-right: 5px solid #dae1e7; 
+   
+    
+}
+.rt, .rm{
+    border-bottom: 5px solid #dae1e7;  
+   
+   
+}
+
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+.div-btn{
+    text-align: center;
+}
+.div-btn button{
+    color: #dae1e7;
+    background: #00909e;
+outline: none;
+border: none;
+padding: .7rem 1rem;
+border-radius: 17px;
+transition-property: background;
+transition-duration:  500ms;
+margin: .5rem;
+}
+.div-btn button:hover{
+    cursor: pointer;
+    background: #142850;
+}

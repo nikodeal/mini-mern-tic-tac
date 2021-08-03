@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.home-div{
+    width: 80%;
+    height: 40rem
+}
+
+
+.center-div{
+  width: 20rem;
+  margin: 3rem auto;
+}
+.top ,.middle, .bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 100%;
+    height: 5rem;
+   
+}
+.top div,.middle div,.bottom div{
+ 
+    text-align: center;
+    
+  
+   
+}
+.lt, .mt, .lm, .mm{
+    border-bottom: 5px solid #00909e;
+    border-right: 5px solid #00909e;
+    
+}
+.lb, .mb{
+    border-right: 5px solid #00909e; 
+}
+.rt, .rm{
+    border-bottom: 5px solid #00909e;  
+}
+
+.restart{
+    color: #dae1e7;
+    background: #00909e;
+outline: none;
+border: none;
+padding: .7rem 1rem;
+border-radius: 17px;
+transition-property: background;
+transition-duration:  500ms;
+margin: .5rem;
+}
+.restart:hover{
+    cursor: pointer;
+    background: #142850;
+}
+
+
+.stats{
+    
+    color: #142850;
+    padding: 1rem 3rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.score span{
+    color: #00909e;
+    padding: 1rem 3rem;
+    font-weight: 700;
+    font-size: 2rem;
+}
